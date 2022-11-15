@@ -1,0 +1,22 @@
+@media (max-width: 1280px) {
+    body {background: #000000;}
+    h1::before {content: '2. ';}
+    h1::after {content: ' - 1025 ~ 1280';}
+}
+
+ @media (max-width: 1024px){
+    body {background: #000000;}
+    h1::before {content: '3. ';}
+    h1::after {content: ' - 961 ~ 1024';}
+ }
+
+ @media (max-width: 960px){
+    body {background: #000000;}
+    h1::before {content: '4. ';}
+    h1::after {content: ' - 577 ~ 768';}
+ }
+ @media (max-width: 768px){
+    body {background: #000000;}
+    h1::before {content: '5. ';}
+    h1::after {content: ' - 577 ~ 768';}
+ }
