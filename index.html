@@ -15,6 +15,16 @@
             text-align: center;
         }
         
+        @media (max-width: 1280px) {
+            body {background: #000000;}
+            h1::before {content: '2. ';}
+            h1::after {content: ' - 1025 ~ 1280';}
+        
+         @media (max-width: 1024px){
+            body {background: #000000;}
+            h1::before {content: '3. ';}
+            h1::after {content: ' - 961 ~ 1024';}
+        
          @media (max-width: 960px){
             body {background: #000000;}
             h1::before {content: '4. ';}
@@ -30,7 +40,7 @@
 
 <body>
     <div class="play">
-        <video src="inside.mp4" style=width:960px;height:720px; autoplay controls></video>
+        <video src="inside.mp4" style=width:2880px;height:2048px; autoplay controls></video>
     </div>
 </body>
 </html>
